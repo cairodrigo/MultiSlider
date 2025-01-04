@@ -196,7 +196,7 @@ extension MultiSlider {
         slideView.constrain(
             valueLabel, at: position.opposite,
             to: thumbView, at: position,
-            diff: -position.inwardSign * thumbView.diagonalSize / 4
+            diff: -position.inwardSign * thumbView.diagonalSize / 6
         )
         valueLabels.append(valueLabel)
         updateValueLabel(i)
